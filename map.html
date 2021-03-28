@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f72a5ce37b89470bab623406d1784480 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f72a5ce37b89470bab623406d1784480" ></div>
+        
+</body>
+<script>    
+    
+            var map_f72a5ce37b89470bab623406d1784480 = L.map(
+                "map_f72a5ce37b89470bab623406d1784480",
+                {
+                    center: [52.0, 2.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e937a0294bb0477fb271bf773ee02491 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+            var marker_d0d403d316b84302844f3cb11479eb88 = L.marker(
+                [51.5, -0.1],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_2e26c82a8c8f48cea78602a13ef9c60d = L.popup({"maxWidth": 400});
+
+        
+            var html_42ebdf8e01aa43e4801f09c835c9ac41 = $(`<div id="html_42ebdf8e01aa43e4801f09c835c9ac41" style="width: 100.0%; height: 100.0%;">     12h: 53°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     15h: 54°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 51°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     21h: 50°F <img src="http://openweathermap.org/img/wn/04n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_2e26c82a8c8f48cea78602a13ef9c60d.setContent(html_42ebdf8e01aa43e4801f09c835c9ac41);
+        
+
+        marker_d0d403d316b84302844f3cb11479eb88.bindPopup(popup_2e26c82a8c8f48cea78602a13ef9c60d)
+        ;
+
+        
+    
+    
+            var marker_0643ca3915c64aaa9a3180148d09c37c = L.marker(
+                [53.4, -3.0],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_3e78e5c9a57f487fac2f20afef92fb0d = L.popup({"maxWidth": 400});
+
+        
+            var html_c2eb8ec9721f4821b68e2393c1fa6c85 = $(`<div id="html_c2eb8ec9721f4821b68e2393c1fa6c85" style="width: 100.0%; height: 100.0%;">     12h: 53°F <img src="http://openweathermap.org/img/wn/10d@2x.png" width=35>     <hr style="margin:1px">     15h: 54°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 52°F <img src="http://openweathermap.org/img/wn/10d@2x.png" width=35>     <hr style="margin:1px">     21h: 53°F <img src="http://openweathermap.org/img/wn/10n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_3e78e5c9a57f487fac2f20afef92fb0d.setContent(html_c2eb8ec9721f4821b68e2393c1fa6c85);
+        
+
+        marker_0643ca3915c64aaa9a3180148d09c37c.bindPopup(popup_3e78e5c9a57f487fac2f20afef92fb0d)
+        ;
+
+        
+    
+    
+            var marker_0b666001e9214b659c16be46bdc4f539 = L.marker(
+                [53.5, -2.3],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_a2744b593e3646e9ad4f999bee8d3320 = L.popup({"maxWidth": 400});
+
+        
+            var html_0b9e581e26b748f39c5094aabe8df568 = $(`<div id="html_0b9e581e26b748f39c5094aabe8df568" style="width: 100.0%; height: 100.0%;">     12h: 52°F <img src="http://openweathermap.org/img/wn/10d@2x.png" width=35>     <hr style="margin:1px">     15h: 54°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 54°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     21h: 52°F <img src="http://openweathermap.org/img/wn/10n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_a2744b593e3646e9ad4f999bee8d3320.setContent(html_0b9e581e26b748f39c5094aabe8df568);
+        
+
+        marker_0b666001e9214b659c16be46bdc4f539.bindPopup(popup_a2744b593e3646e9ad4f999bee8d3320)
+        ;
+
+        
+    
+    
+            var marker_1b4499078fe34fae90178a6d8fc23800 = L.marker(
+                [52.4, 4.9],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_81e9dbd7fa3147faaa0da89e78c1958a = L.popup({"maxWidth": 400});
+
+        
+            var html_3db30c96f14d4ce08deacb2bbe700006 = $(`<div id="html_3db30c96f14d4ce08deacb2bbe700006" style="width: 100.0%; height: 100.0%;">     12h: 48°F <img src="http://openweathermap.org/img/wn/10d@2x.png" width=35>     <hr style="margin:1px">     15h: 50°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 48°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     21h: 48°F <img src="http://openweathermap.org/img/wn/04n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_81e9dbd7fa3147faaa0da89e78c1958a.setContent(html_3db30c96f14d4ce08deacb2bbe700006);
+        
+
+        marker_1b4499078fe34fae90178a6d8fc23800.bindPopup(popup_81e9dbd7fa3147faaa0da89e78c1958a)
+        ;
+
+        
+    
+    
+            var marker_613a2d63a04d441583f96f05a60bf2ae = L.marker(
+                [51.9, 4.5],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_664145bb33554ff983cb61ed58525067 = L.popup({"maxWidth": 400});
+
+        
+            var html_0b4e54aff0064be48fdfe4a2ba1be469 = $(`<div id="html_0b4e54aff0064be48fdfe4a2ba1be469" style="width: 100.0%; height: 100.0%;">     12h: 51°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     15h: 52°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 50°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     21h: 49°F <img src="http://openweathermap.org/img/wn/04n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_664145bb33554ff983cb61ed58525067.setContent(html_0b4e54aff0064be48fdfe4a2ba1be469);
+        
+
+        marker_613a2d63a04d441583f96f05a60bf2ae.bindPopup(popup_664145bb33554ff983cb61ed58525067)
+        ;
+
+        
+    
+    
+            var marker_8bfa14f9dc5848dba5177f85e14199fe = L.marker(
+                [52.1, 4.3],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_cc08dd27f99e4d029e631a7c79312501 = L.popup({"maxWidth": 400});
+
+        
+            var html_61d152f5206a4b59b7e464650d4c830a = $(`<div id="html_61d152f5206a4b59b7e464650d4c830a" style="width: 100.0%; height: 100.0%;">     12h: 49°F <img src="http://openweathermap.org/img/wn/10d@2x.png" width=35>     <hr style="margin:1px">     15h: 49°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 48°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     21h: 48°F <img src="http://openweathermap.org/img/wn/04n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_cc08dd27f99e4d029e631a7c79312501.setContent(html_61d152f5206a4b59b7e464650d4c830a);
+        
+
+        marker_8bfa14f9dc5848dba5177f85e14199fe.bindPopup(popup_cc08dd27f99e4d029e631a7c79312501)
+        ;
+
+        
+    
+    
+            var marker_453b352a0a75465691838730c07692fc = L.marker(
+                [51.2, 4.4],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_69afad50dbdf4ba19a349d8ef6436a4d = L.popup({"maxWidth": 400});
+
+        
+            var html_2c7ab94250ab4a04a8a3de840a80f89e = $(`<div id="html_2c7ab94250ab4a04a8a3de840a80f89e" style="width: 100.0%; height: 100.0%;">     12h: 54°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     15h: 56°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 52°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     21h: 50°F <img src="http://openweathermap.org/img/wn/04n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_69afad50dbdf4ba19a349d8ef6436a4d.setContent(html_2c7ab94250ab4a04a8a3de840a80f89e);
+        
+
+        marker_453b352a0a75465691838730c07692fc.bindPopup(popup_69afad50dbdf4ba19a349d8ef6436a4d)
+        ;
+
+        
+    
+    
+            var marker_a677b9ade2cb4111a82fff4a7b258ea9 = L.marker(
+                [50.9, 4.4],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_acdeb72926c64df386b4394fb280eed5 = L.popup({"maxWidth": 400});
+
+        
+            var html_de1109a8df384a38a5b001599a146d3d = $(`<div id="html_de1109a8df384a38a5b001599a146d3d" style="width: 100.0%; height: 100.0%;">     12h: 54°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     15h: 55°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 51°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     21h: 49°F <img src="http://openweathermap.org/img/wn/04n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_acdeb72926c64df386b4394fb280eed5.setContent(html_de1109a8df384a38a5b001599a146d3d);
+        
+
+        marker_a677b9ade2cb4111a82fff4a7b258ea9.bindPopup(popup_acdeb72926c64df386b4394fb280eed5)
+        ;
+
+        
+    
+    
+            var marker_61b3b4c502b24165888fb793993d2677 = L.marker(
+                [51.1, 3.7],
+                {}
+            ).addTo(map_f72a5ce37b89470bab623406d1784480);
+        
+    
+        var popup_832dc16efdb9499fa13efe3265024d86 = L.popup({"maxWidth": 400});
+
+        
+            var html_19164ba96d9e4449822852426288b120 = $(`<div id="html_19164ba96d9e4449822852426288b120" style="width: 100.0%; height: 100.0%;">     12h: 54°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     15h: 55°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     18h: 51°F <img src="http://openweathermap.org/img/wn/04d@2x.png" width=35>     <hr style="margin:1px">     21h: 48°F <img src="http://openweathermap.org/img/wn/04n@2x.png" width=35>     <hr style="margin:1px">     </div>`)[0];
+            popup_832dc16efdb9499fa13efe3265024d86.setContent(html_19164ba96d9e4449822852426288b120);
+        
+
+        marker_61b3b4c502b24165888fb793993d2677.bindPopup(popup_832dc16efdb9499fa13efe3265024d86)
+        ;
+
+        
+    
+</script>
